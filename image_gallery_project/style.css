@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family:sans-serif ;
+}
+.Gallery{
+height: 80%;
+width: 80%;
+display: flex;
+margin: 5% auto 0;
+box-sizing: border-box;
+}
+.Image-box{
+    margin: 0 1%;
+    flex-grow: 1;
+    flex-basis: 0;
+    transition: .5s;
+}
+.Image-box img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    transition: .5s;
+}
+.Image-box:hover{
+    flex-basis: 50%;
+}
+body {
+  background: url("https://i.pinimg.com/736x/8b/f6/68/8bf66877251108e4070c0271e19e9f60.jpg") no-repeat center center/cover;
+}
+p{
+    margin-bottom: 5px;
+    justify-content: left;
+    font-size: 20px;
+    color: black;
+    
+}
